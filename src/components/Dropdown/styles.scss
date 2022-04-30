@@ -1,0 +1,28 @@
+.customDropdown {
+  .dropdownToggle {
+    color: #495057;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    white-space: break-spaces;
+
+    &::after {
+      display: none;
+    }
+
+    .dropDownText {
+      margin-right: 12px;
+    }
+  }
+
+  .dropdown-menu {
+    min-width: 200px;
+
+    .dropdown-item {
+      padding: 12px 8px;
+      letter-spacing: 0;
+    }
+  }
+}

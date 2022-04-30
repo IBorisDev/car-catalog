@@ -1,0 +1,10 @@
+.application {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f3f9fe;
+
+  > .content {
+    max-width: 720px;
+  }
+}
